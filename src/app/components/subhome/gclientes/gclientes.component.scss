@@ -1,0 +1,82 @@
+.main{
+    display: flex;
+    width: 100vw;
+    padding: 35px 60px;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #EEEEEE;
+    .body{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: auto 30px auto auto;
+        .title{
+            font-size: 32px;
+            color: #3D5A80;
+            font-weight: bold;
+            margin: 20px auto;
+        }
+        .subtitle{
+            color: #3D5A80;
+            font-size: 20px;
+            text-align: center;
+            width: 95%;
+            margin: auto;
+        }
+        .description{
+            margin-top: 25px;
+            font-size: 16px;
+            color: #293241;
+        }
+        .cards{
+            padding: 15px 0;
+            display: flex;
+            width: 100%;
+            ul{
+                display: flex;
+                list-style: none;
+                margin-left: 10px;
+                padding: 0;
+                
+                li{
+                    width: 33%;
+                    display: flex;
+                    align-items: center;
+                    img{
+                        width: 35px;
+                        height: 35px;
+                        margin-right: 10px;
+                    }
+                    label{
+                        width: 136px;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        button{
+            background-color: #EE6C4D;
+            border: none;
+            border-radius: 10px;
+            width: 190px;
+            height: 45px;
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 10px;
+            &:hover{
+                transform: scale(1.01);
+            }  
+        }
+    }
+    .imagem{
+        display: flex;
+        background-color: #EEEEEE;
+        width: 30%;
+        img{
+            width: 100%;
+            background-color: #EEEEEE;
+        }
+    }
+}

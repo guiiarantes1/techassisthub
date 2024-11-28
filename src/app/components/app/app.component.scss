@@ -1,0 +1,122 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 90.4svh;
+  font-family: "Roboto", sans-serif;
+  h1 {
+    margin: 30px 30px -50px 30px;
+  }
+  .body {
+    display: flex;
+    width: 80%;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    margin: auto;
+    height: 75%;
+    ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      border-radius: 5px;
+      margin: 0;
+      li {
+        width: 28%;
+        margin: 15px;
+        height: 40%;
+        background-color: #4f6d7a;
+        color: #fcfcfc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 5px;
+        &:hover {
+          cursor: pointer;
+          p,
+          svg {
+            transform: scale(1.01);
+          }
+        }
+        svg {
+          width: 80px;
+          height: 80px;
+          margin: 15px;
+        }
+        #search {
+          position: fixed;
+          margin-top: -20px;
+          width: 30px;
+          height: 30px;
+        }
+        #relatorio {
+          padding: 5px;
+        }
+      }
+    }
+  }
+}
+
+#offcanvas {
+  top: 80px;
+  .offcanvas-header {
+    padding: 10px;
+    background-color: #f0f3f8;
+    h6 {
+      margin: auto;
+      color: #293241;
+      font-size: 25px;
+    }
+  }
+  .offcanvas-body {
+    padding: 0;
+    li {
+      margin: 7px 0;
+      width: 100%;
+      &:hover {
+        cursor: pointer;
+        background-color: #e1ecff;
+        width: 100%;
+      }
+    }
+    a {
+      display: flex;
+      align-items: center;
+    }
+    p {
+      margin-bottom: 0;
+      font-size: 1.1rem;
+      color: #2b4c83;
+    }
+    svg {
+      margin-right: 15px;
+      color: #4a75be;
+      width: 25px;
+      height: 25px;
+    }
+    #search {
+      position: fixed;
+      width: 10px;
+      height: 10px;
+      margin-left: 8px;
+      margin-top: 5px;
+    }
+    #relatorio {
+      padding: 2px;
+    }
+  }
+  .offcanvas {
+    position: relative;
+    background-color: red;
+  }
+}
+.container-fluid {
+  width: 75%;
+  margin-left: 25%;
+  height: 91.1svh;
+  padding: 0 !important;
+  background-color: #ece8e8;
+}

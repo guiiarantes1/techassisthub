@@ -1,0 +1,108 @@
+.main {
+  width: 100vw;
+  height: 90.4svh;
+  background-color: #3d5a80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  .body {
+    color: white;
+    text-align: center;
+    margin: auto;
+    .title {
+      font-size: 32px;
+      font-weight: 700;
+      margin-top: -100px;
+    }
+    .description {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 40px;
+    }
+    img{
+      width: 120%;
+    }
+  }
+  .login {
+    margin: auto;
+    text-align: center;
+    .loginContainer {
+      background-color: #e1e1e1;
+      width: 340px;
+      height: 450px;
+      border-radius: 15px;
+      text-align: center;
+      padding: 60px 30px;
+      h3{
+        font-size: 24px;
+        color: #293241;
+        font-weight: 700;
+        margin-bottom: 50px;
+      }
+      .form-group{
+        margin-top: 30px;
+        font-style: italic;
+        display: flex;
+        align-items: center;
+        input{
+          padding: 7px 7px 7px 35px;
+        }
+        i{
+          font-size: 20px;
+          color: #98C1D9;
+          position: fixed;
+          margin: 0 10px;
+        }
+      }
+      .form-check{
+        margin-top: 15px;
+        padding: 0;
+        display: flex;
+        input{
+            margin-left: 0;
+        }
+        label{
+            font-size: 12px;
+            margin: auto auto auto 5px;
+            color: #293241;
+            font-style: italic;
+
+        }
+        a{
+            font-size: 13px;
+            margin: auto;
+            color: #EE6C4D;
+            text-decoration: none;
+            font-style: italic;
+            font-weight: 700;
+        }
+      }
+      button{
+        display: flex;
+        margin: 60px auto;
+        padding: 8px 60px;
+        background-color: #EE6C4D;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        &:hover {
+          transform: scale(1.01);
+        }
+      }
+    }
+    .tip{
+      font-size: 14px;
+      color: white;
+      font-style: italic;
+      font-weight: 300;
+      margin: 10px 20px;
+    }
+    .adquira{
+      color: #EE6C4D;
+      font-weight: 500;
+      text-decoration: none;
+      margin-left: 10px;
+    }
+  }
+}
